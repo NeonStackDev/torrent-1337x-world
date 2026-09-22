@@ -1,85 +1,70 @@
 <template>
   <div>
-    <div class="max-w-full mx-auto bg-white rounded-lg shadow-md overflow-hidden">
-      <!-- Header -->
-      <div class="bg-gray-600 px-6 py-4">
-        <h1 class="text-2xl font-bold text-white">Official Domains</h1>
-      </div>
-      
-      <!-- Content -->
-      <div class="px-6 py-6">
-        <!-- Domains List -->
-        <div class="space-y-3 mb-8">
-          <a
-            href="https://1331x.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="font-bold text-red-600 hover:underline">
-            1331X.com
-        </a>
-        <br>
-        <br>
-        <a
-            href="https://1337X.lol"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="font-bold text-red-600 hover:underline">
-            1337X.lol
-        </a>
-        <br>
-        <br>
-        <a
-            href="https://1337x.website"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="font-bold text-red-600 hover:underline">
-            1337x.website
-        </a>
-        <br>
-        <br>
-        <a
-            href="https://1337x.world"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="font-bold text-red-600 hover:underline">
-            1337.world
-        </a>
-        <br>
-        
-        1331x.to
-          
-          <p class="font-bold text-red-600">1331xdarkkaqfwzntnftSbmoarqivtlxsbatabylbSzumgkvSch4Ayd onion Beta</p>
-        </div>
+    <div class="max-w-full mx-auto">
+      <div class="space-y-5">
+        <!-- Official Domains Section -->
+        <div class="overflow-hidden rounded border border-gray-600 bg-gray-50 shadow-sm">
+          <div class="border-b border-gray-300 border-l-4 border-l-orange-500 bg-slate-200 px-5 py-3">
+            <h1 class="font-bold text-gray-800">Official Domains</h1>
+          </div>
 
-        <!-- Onion Domain Notice -->
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
-          <div class="flex" text-black>
-            <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
-              </svg>
-            </div>
-            <div class="ml-3">
-              <p class="text-sm text-yellow-700">
-                <span class="font-semibold">Onion domain limitations in Beta:</span><br>
-                Service may go temporarily offline at any time<br>
-                Registrations disabled<br>
-                Login/Post Comments/Upload only possible for: Uploaders, VIP, Moderators, Admins and active donators.
-              </p>
-            </div>
+          <div class="px-5 py-5">
+          <!-- Domains List -->
+          <div class="space-y-8">
+            <a
+              href="https://1331x.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block font-bold text-red-600 hover:underline">
+              1331X.com
+            </a>
+            <a
+              href="https://1337X.lol"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block font-bold text-red-600 hover:underline">
+              1337X.lol
+            </a>
+            <a
+              href="https://1337x.website"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block font-bold text-red-600 hover:underline">
+              1337x.website
+            </a>
+            <a
+              href="https://1337x.world"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block font-bold text-red-600 hover:underline">
+              1337x.world
+            </a>
+          </div>
+
+          <!-- Onion Domain Notice -->
+          <div class="mt-8 text-sm text-gray-800">
+            <p>
+              Onion domain limitations in Beta:<br>
+              Service may go temporarily offline at any time<br>
+              Registrations disabled<br>
+              Login/Post Comments/Upload only possible for: Uploaders, VIP, Moderators, Admins and active donators.
+            </p>
+          </div>
           </div>
         </div>
 
-        <div class="border-t border-gray-200 my-6"></div>
-
         <!-- PGP Key Section -->
-        <div>
-          <h1 class="text-red-700 font-bold mb-4">PGP Key</h1>
-          <h3 class="text-red-600 font-semibold mb-2">Public Key</h3>
-          <p class="mb-4 text-black" >PGP key fingerprint: <span class="font-mono bg-gray-100 px-2 py-1 rounded">19A4 FDBF 466A 5CA0 3C3F 802B 9C5A 924F C135 ECD2</span></p>
+        <div class="overflow-hidden rounded border border-gray-300 bg-gray-50 shadow-sm">
+          <div class="border-b border-gray-300 border-l-4 border-l-orange-500 bg-slate-200 px-5 py-3">
+            <h1 class="font-bold text-gray-800">PGP Key</h1>
+          </div>
           
-          <div class="bg-gray-50 p-4 rounded-md overflow-x-auto">
-            <pre class="text-sm font-mono text-gray-800 ">
+          <div class="px-5 py-5">
+            <h3 class="mb-4 font-semibold text-red-600">Public key</h3>
+            <p class="mb-4 text-sm text-gray-800">PGP key fingerprint: 19A4 FDBF 466A 5CA0 3C3F 802B 9C5A 924F C135 ECD2</p>
+
+            <div class="w-full max-w-[700px] overflow-auto border border-gray-500 bg-white">
+              <pre class="min-h-[640px] p-1 font-mono text-sm leading-none text-black whitespace-pre-line">
 
                     -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -133,6 +118,7 @@
                     =Wrqz
                     -----END PGP PUBLIC KEY BLOCK-----
                     </pre>
+            </div>
           </div>
         </div>
       </div>

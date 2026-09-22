@@ -28,7 +28,7 @@
       
       <!-- Logo & search & menu on Mobile -->
       <div class="md:hidden logo text-6xl font-bold text-white text-center">
-        1331<span class="text-orange-500">X</span>
+        1337<span class="text-orange-500">X</span>
       </div>
       <button class="md:hidden absolute top-6 right-6 px-2 text-3xl" @click="isMenuOpen = !isMenuOpen">☰</button>
       <div class="md:hidden relative w-full">
