@@ -6,7 +6,7 @@
         <!-- Logo -->
         <div class="flex items-center">
           <a href="/" class="text-2xl font-bold text-orange-500">
-            1331<span class="text-white">X</span>
+            1337<span class="text-white">X</span>
           </a>
         </div>
 

@@ -10,12 +10,44 @@
       <div class="px-6 py-6">
         <!-- Domains List -->
         <div class="space-y-3 mb-8">
-          <p class="font-bold text-red-600">1331X.eu</p>
-          <p class="font-bold text-red-600">1331X.st</p>
-          <p class="font-bold text-red-600">x1331x.cc</p>
-          <p class="font-bold text-red-600">x1331x.ws</p>
-          <p class="font-bold text-red-600">x1331x.eu</p>
-          <p class="font-bold text-red-600">x1331x.se</p>
+          <a
+            href="https://1331x.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-bold text-red-600 hover:underline">
+            1331X.com
+        </a>
+        <br>
+        <br>
+        <a
+            href="https://1337X.lol"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-bold text-red-600 hover:underline">
+            1337X.lol
+        </a>
+        <br>
+        <br>
+        <a
+            href="https://1337x.website"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-bold text-red-600 hover:underline">
+            1337x.website
+        </a>
+        <br>
+        <br>
+        <a
+            href="https://1337x.world"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-bold text-red-600 hover:underline">
+            1337.world
+        </a>
+        <br>
+        
+        1331x.to
+          
           <p class="font-bold text-red-600">1331xdarkkaqfwzntnftSbmoarqivtlxsbatabylbSzumgkvSch4Ayd onion Beta</p>
         </div>
 
