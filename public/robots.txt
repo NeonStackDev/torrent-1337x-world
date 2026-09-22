@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1337x.world/sitemap_index.xml
+Sitemap: https://1337x.world/__sitemap__/page.xml	
+Sitemap: https://1337x.world/__sitemap__/posts-0.xml
+Sitemap: https://1337x.world/__sitemap__/posts-1.xml
+Sitemap: https://1337x.world/__sitemap__/posts-2.xml
+Sitemap: https://1337x.world/__sitemap__/posts-3.xml
+Sitemap: https://1337x.world/__sitemap__/posts-4.xml
+Sitemap: https://1337x.world/__sitemap__/posts-5.xml
+Sitemap: https://1337x.world/__sitemap__/posts-6.xml

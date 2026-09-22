@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Oswald Regular';
+  src: url('/fonts/oswald-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body .title {
+    font-family: "Oswald Regular";
+    text-transform: uppercase;
+}
+
+
+.bg-gray-750 {
+    background-color: rgba(55, 65, 81, 0.5);
+}
+
+.btn-icon {
+    display: inline-flex;
+    /* keeps icon + text aligned */
+    align-items: center;
+    /* vertical center */
+    justify-content: center;
+    /* horizontal center */
+    gap: 0.5rem;
+    /* space between icon and text */
+    background-color: #e65100;
+    /* orange background */
+    color: white;
+    /* text color */
+    padding: 0.25rem 0.75rem;
+    /* vertical / horizontal padding */
+    border-radius: 0.25rem;
+    /* rounded corners */
+    cursor: pointer;
+    /* pointer on hover */
+    font-size: 14px;
+    /* text size */
+    text-align: center;
+    /* centers text if wrapped */
+    border: none;
+    /* remove default button border */
+}
+
+.btn-icon:hover {
+    background-color: #bf360c;
+    /* darker orange on hover */
+}
+
+
+/*  */
+.featured-list .featured-heading {
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.featured-heading {
+    background-color: #d1d1d1;
+    border-radius: 4px 4px 0 0;
+    padding: 0 13px 0 68px;
+    position: relative;
+}
+
+
+.featured-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    padding: 0 10px;
+    display: block;
+    color: #fff;
+    border-top-left-radius: 3px;
+    background-color: #d63600;
+}
+
+.featured-icon:after {
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    content: "";
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #d63600;
+    border-top: 8px solid transparent;
+}
+
+.featured-heading .featured-icon i {
+    left: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    position: absolute;
+    top: 50%;
+    line-height: 1;
+    font-size: 22px;
+}
+
+.custom-html img {
+  @apply max-w-full h-auto rounded-lg;
+}
+
+h2{
+  font-size: 1.5em;
+}
