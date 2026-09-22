@@ -3,7 +3,7 @@
     <div class="max-w-full mx-auto">
       <div class="space-y-5">
         <!-- Official Domains Section -->
-        <div class="overflow-hidden rounded border border-gray-600 bg-gray-50 shadow-sm">
+        <div class="overflow-hidden rounded border border-gray-300 bg-gray-50 shadow-sm">
           <div class="border-b border-gray-300 border-l-4 border-l-orange-500 bg-slate-200 px-5 py-3">
             <h1 class="font-bold text-gray-800">Official Domains</h1>
           </div>
