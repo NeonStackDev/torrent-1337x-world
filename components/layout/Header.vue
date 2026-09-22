@@ -14,7 +14,7 @@
       <!-- Logo + Search -->
       <div class="hidden md:flex items-center gap-2 justify-between">
         <div class="logo text-6xl font-bold text-white">
-          1331<span class="text-orange-500">X</span>
+          1337<span class="text-orange-500">X</span>
         </div>
         <div class="relative w-full md:w-96">
           <input type="text" placeholder="Search for torrents..." v-model="searchQuery" @keyup.enter="handleSearch"
